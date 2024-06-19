@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boş Tablo </title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Table Etiketi ile Oluşturulmuş Tablo </h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Başlık 1</th>
+                <th>Başlık 2</th>
+                <th>Başlık 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hücre 1</td>
+                <td>Hücre 2</td>
+                <td>Hücre 3</td>
+            </tr>
+            <tr>
+                <td>Hücre 4</td>
+                <td>Hücre 5</td>
+                <td>Hücre 6</td>
+            </tr>
+            <tr>
+                <td>Hücre 7</td>
+                <td>Hücre 8</td>
+                <td>Hücre 9</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
